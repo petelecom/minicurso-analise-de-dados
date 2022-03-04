@@ -2,6 +2,7 @@
 
 - [História](#história)
 - [Linguagem Interpretada](#linguagem-interpretada)
+- [Palavras Reservadas](#)
 - [Estrutura de dados](#estrutura-de-dados)
   - [Utilizando variáveis](#variáveis)
   - [Tuples](#tuples)
@@ -27,7 +28,12 @@
 <p style='text-align: justify;'>Tuple é uma classe que agrupa dados. Uma vez criado o tuple não pode: remover, mudar a ordem ou adicionar novos elementos.
 Usado para quando determidado dado tem uso de apenas leitura, garantindo segurança da aplicação.</p>
 
-<p style='text-align: justify;'>Para criar um tuple</p>
+<p style='text-align: justify;'>Para criar um tuple basta colocar os elementos  que pertencerão ao tuple dentro de parênteses separados por vírgurla: </p>
+
+```python
+vetor = (1, 4, -2)
+oneItem = (1,)
+```
 
 ### Listas
 ### Dicionários
