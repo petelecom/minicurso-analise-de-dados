@@ -21,7 +21,7 @@
 
 Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991 e posteriormente desenvolvido pela Python Software Foundation.
 
-### Utilidades:
+#### Utilidades:
 
 - desenvolvimento web (lado do servidor);
 - desenvolvimento de software;
@@ -29,7 +29,7 @@ Python é uma linguagem de programação de alto nível, interpretada de script,
 - analise de dados;
 - inteligencia artificial (I.A).
 
-### Informações: 
+#### Informações: 
 
 - A versão principal mais recente do Python é o Python 3, que usaremos neste minicurso. 
 - É possível escrever Python utilizando uma IDE (ambiente de desenvolvimento integrado), Pycharm, Netbeans, Sublime, Eclipse, Visual studio code, entre outros.
