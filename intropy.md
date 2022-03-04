@@ -67,14 +67,12 @@ oneItem[1] # É obtido um erro com a mensagem "IndexError: tuple index out of ra
 ### Listas
 
 [Documentação](https://docs.python.org/3/library/stdtypes.html?highlight=list#list)
-<p style='text-align: justify;'>List é uma classe que agrupa dados, diferentemente do tuple as listas permitem modificações de seus elementos. Para criar uma lista </p>
+<p style='text-align: justify;'>List é uma classe que agrupa dados, diferentemente do tuple as listas permitem modificações de seus elementos. Para criar uma lista: </p>
 
 ```python
-vetor = (1, 4, -2)
-oneItem = (1,)
+vetor = [1, 4, -2]
+oneItem = [1]
 ```
-<p style='text-align: justify;'> Quando deseja-se criar um tuple de apenas um único elemento deve conter a virgula. </p>
-
 <p style='text-align: justify;'> Os itens são acessados pelo índice, o primeiro elemento é o índice 0. Caso ocorra o acesso de um índice inválido, é lançado um erro.
  A sintaxe é:</p>
 
@@ -84,7 +82,7 @@ variavel[indice]
 
 ```python
 vetor[0] # acessa o primeiro elemento do tuple, o valor obtido é 1
-oneItem[1] # É obtido um erro com a mensagem "IndexError: tuple index out of range"
+oneItem[1] # É obtido um erro com a mensagem "IndexError: list index out of range"
 ```
 <p style='text-align: justify;'> Também é possível acessar com índices negativos, -1 para o último elemento, -2 para o penúltimo e assim por diante. </p>
 
