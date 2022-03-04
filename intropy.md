@@ -2,11 +2,12 @@
 
 - [História](#história)
 - [Linguagem Interpretada](#linguagem-interpretada)
-- [Utilizando variáveis](#utilizando-variáveis)
-- [Tuples](#tuples)
-- [Listas](#listas)
-- [Dicionários](#dicionários)
-- [Strings](#strings)
+- [Estrutura de dados](#estrutura-de-dados)
+  - [Utilizando variáveis](#variáveis)
+  - [Tuples](#tuples)
+  - [Listas](#listas)
+  - [Dicionários](#dicionários)
+  - [Strings](#strings)
 - [Funções](#funções)
 - [Laços](#laços)
 - [Classes](#classes)
@@ -17,11 +18,18 @@
 
 ## História
 ## Linguagem Interpretada
-## Utilizando variáveis
-## Tuples
-## Listas
-## Dicionários
-## Strings
+
+<a name = "estrutura-de-dados"/>
+
+### Variáveis
+### Tuples
+[Documentação](https://docs.python.org/3/library/stdtypes.html?highlight=tuples#tuple)
+<p style='text-align: justify;'>Tuple é uma classe que agrupa dados. Uma vez criado o tuple não pode: remover, mudar a ordem ou adicionar novos elementos.
+Usado para quando determidado dado tem uso de apenas leitura, garantindo segurança da aplicação.</p>
+
+### Listas
+### Dicionários
+### Strings
 ## Funções
 ## Laços
 ## Classes
