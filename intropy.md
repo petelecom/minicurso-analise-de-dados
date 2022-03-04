@@ -23,7 +23,7 @@ Python é uma linguagem de programação de alto nível, interpretada de script,
 
 #### Utilidades:
 
-- desenvolvimento web (lado do servidor);
+- desenvolvimento web;
 - desenvolvimento de software;
 - matemática;
 - analise de dados;
