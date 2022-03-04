@@ -93,6 +93,52 @@ oneItem[1] # É obtido um erro com a mensagem "IndexError: tuple index out of ra
 ### Strings
 ## Funções
 ## Laços
+
+### Condição com o IF/ELSE
+
+- Vamos ver no codigo como funcionaria uma estrutura de if/else. Digamos que, uma pessoa abaixo dos 18 anos seja adolescente senão, será considerada adulta. Coloquemos isso em codigo:
+```python
+    if idade < 18:
+        print('Você é adolescente!')
+    else:
+        print('Você é adulto!')
+
+Na linguagem Python, a indentação é utilizada para demarcar os blocos de código, e são obrigatórios quando se usa estruturas de controle.
+```
+
+- Também é possível checar mais de uma condição com o __elif__. É a abreviatura para else __if__. Ou seja, se o __if__ for falso, testa outra condição antes do __else__:
+
+```python
+    idade = 18
+    if idade < 18:
+        print('Você é Adolescente!')
+    elif idade > 50:
+        print('Você é Velho!')
+    else:
+        print('Você é Adulto!')
+```
+
+- Note que quando uma condição for verdadeira, aquele bloco de código é executado e as demais condições (__elif__ e __else__) são puladas:
+
+```python
+In[]:
+
+    a = 1
+    if a == 1:
+        print("é 1")
+    elif a >= 1:
+        print("é maior ou igual a 1")
+    else:
+        print("é qualquer outra coisa")
+        
+```
+
+```python
+Out[]:
+
+    é 1
+```
+
 ## Classes
 ## Módulos
 ## Importando módulos
