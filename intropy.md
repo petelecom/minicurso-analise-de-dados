@@ -45,12 +45,14 @@ Python é uma linguagem de programação de alto nível, interpretada de script,
 <p style='text-align: justify;'>Tuple é uma classe que agrupa dados. Uma vez criado o tuple não pode: remover, mudar a ordem ou adicionar novos elementos.
 Usado para quando determidado dado tem uso de apenas leitura, garantindo segurança da aplicação.</p>
 
-<p style='text-align: justify;'>Para criar um tuple basta colocar os elementos  que pertencerão ao tuple dentro de parênteses separados por vírgurla: </p>
+
 
 ```python
 vetor = (1, 4, -2)
 oneItem = (1,)
 ```
+<p style='text-align: justify;'> Quando deseja-se criar um tuple de apenas um único elemento deve conter a virgula. </p>
+
 
 ### Listas
 ### Dicionários
