@@ -3,7 +3,7 @@ Este minicurso é desenvolvido pelo grupo PET Telecom
 ### Contribuidores
 - [Guilherme](https://github.com/GUI-FERREIRA)
 - [Henrique](https://github.com/Xx220xX)
-- [Olavo](https://github.com/orgs/petelecom/people/olavocinacio)
+- [Olavo](https://github.com/olavocinacio)
 
 ### Tópicos
 - [ ] [Introdução ao Python](intropy.md)
