@@ -1,4 +1,4 @@
-# Minicurso analise de dados
+# Minicurso análise de dados
 Este minicurso é desenvolvido pelo grupo PET Telecom
 ### Contribuidores
 - [Guilherme](https://github.com/GUI-FERREIRA)
