@@ -88,6 +88,43 @@ oneItem[1] # É obtido um erro com a mensagem "IndexError: list index out of ran
 
 
 ### Dicionários
+
+[Documentação](https://docs.python.org/2/tutorial/datastructures.html#dictionaries)
+
+Os dicionários em python associa um objeto a uma chave. A chave do dicionário deve ser um objeto "hashable", ou seja, um objeto imutável como números, tuples e strings. O objeto associado a chave pode ser qualquer objeto sem restrições. Os objetos que cada chave associa podem ser alterados.
+
+<p></p>
+
+- Para criar um dicionário utiliza-se as seguintes sintaxes
+
+```Python
+  variavel1 = {} # dicionario vazio
+  variavel2 = dict() # dicionario vazio
+  variavel3 = dict(Terra=4.545e9, Marte = 4.605e9)
+  variavel4 = {'Terra':4.545e9, 'Marte': 4.605e9 , 1:2, 1.5:6, 1+2j:10, (1,1):0.5, 'dict1':variavel1}
+```
+ - Como mencionado antes os dicionários são mutáveis, então é possivel adicionar novas chaves a eles
+ 
+```Python
+  variavel1['Terra']  = variavel4['Terra']
+  variavel2['Terra'] = 4.543e9
+```
+- E também remover uma chave do dicionário
+
+```Python
+  del variavel4['Terra']
+  del variavel3['Marte']
+```
+- Para verificar se uma chave existe no dicionário pode-se utilizar a palavra reservada "in"
+
+```Python 
+  if 'Terra' in variavel4:
+    print("'Terra' é uma chave no dicionario 'variavel4'")
+  else:
+    print("'Terra' não é uma chave no dicionario 'variavel4'")
+```
+
+
 ### Strings
 ## Funções
 ## Laços
