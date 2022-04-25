@@ -126,6 +126,23 @@ Os dicionários em python associa um objeto a uma chave. A chave do dicionário 
 
 
 ### Strings
+  
+  [Documentação](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)
+  
+  As strings são cadeias de caracteres que representam textos. Em python uma vez criada a string não pode ser moficada, isto é, não pode-se alterar nenhum caractere da mesma, para alterar uma string cria-se uma nova string modificada. As strigs em python são criadas utilizando aspas duplas ou simples, quando utiliza-se uma sequencia de 3 aspas indica que a string é multilinha. As classes possuem um metodo que retorna uma representação de si no formato de string, util para mostrar na tela os seus valores, e o python3 simplifica o acesso a esse metodo, para isso antes de declarar a string adiciona-se a letra f.
+  
+- Sintaxe para criar uma string
+  
+```Python
+
+str1 = 'texto1'
+str2 = "texto2"
+str3 = """ String multilinha
+essa é a segunda linha """
+nome  = "Pet Telecom"
+str4 = f"Bem vindo {nome}" # string criada  'Bem vindo Pet Telecom'
+```
+
 ## Funções
 ## Laços
 
