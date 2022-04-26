@@ -290,6 +290,6 @@ import pandas as pd
 O pip é uma ferramenta de gerenciamento de bibliotecas e APIs do python, com ele é facil adicionar uma nova biblioteca, na linha de comandos ele pode ser usado para instalar a API numpy que possui classes e funções para manipulação de matrizes e vetores.
 
 
-```shell
+```cmd
 pip install numpy
 ```
