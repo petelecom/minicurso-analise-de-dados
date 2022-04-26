@@ -144,6 +144,52 @@ str4 = f"Bem vindo {nome}" # string criada  'Bem vindo Pet Telecom'
 ```
 
 ## Funções
+
+Quando temos um trecho de script que será utilizado diversas vezes não eficaz e nem otmizado ficar repetindo as mesmas linhas toda vez que for necessário, para resolver isso o python permite criar suas próprias funções. As funções são como pequenos scripts que tem uma finalidade, elas possuem parametros de entrada e pode devolver objetos para quem a chamou. 
+
+Por exemplo, você se encontra em um problema que será feito a media de variáveis (ignorando as função mean já disponível no Python)
+
+
+```Python
+  x = [1, 2, 54, 10, 14, 4]
+  y = [4, 6, 7, -5, 13, 50]
+  
+  media_x = 0
+  for xi in x:
+    media_x +=  xi
+  media_y = 0
+  for yi in y:
+    media_y +=  yi
+```
+
+Note que quanto mais vezes for necessário utilizar a média mais linhas repetidas serão adicionadas, a função tem a seguinte sintaxe:
+
+```Python
+def  name_function(param1,param2, *args, **kwargs):
+    # corpo
+    return var1, var2, var3
+```
+Dentro dos parenteses coloca-se os parametros de entrada da função, o parametro "*args" é utilizado para adicionar vários parametros e o "** kwaegs" é um dicionário. A função media fica:
+```Python
+def media(lista):
+  u = 0
+  for vi in lista:
+    u += vi
+  return u
+```
+
+Assim o script fica mais enxuto facilitando a leitura e correção de possíveis bugs
+
+```Python
+  x = [1, 2, 54, 10, 14, 4]
+  y = [4, 6, 7, -5, 13, 50]
+  
+  media_x = media(x)
+  media_y = media(y)
+```
+
+
+ 
 ## Laços
 
 ### Condição com o IF/ELSE
@@ -192,6 +238,58 @@ Out[]:
 ```
 
 ## Classes
+
+A linguagem python é orientada a objetos, uma classe serve para criar um modelo de um objeto e de quais atríbutos e metódos aquele objeto quando instânciado terá. Uma instância é o objeto já criado.  A sintaxe para criar uma classe é:
+
+```Python
+ class NomeClass(ClasseMae): # a classe Mãe quando não inserida é implicito que a classe mãe é a Object
+  def __init__(self, arg1):
+     self.atr1 = arg1
+  def method1(self,arg1):
+    pass
+```
+Todos os metodos são análogos a uma função, com a diferença que o primeiro argumento (normalmente com o nome self) é a instância da classe.
+
 ## Módulos
+
+Os módulos servem para agrupar todas as classes, funções e valores  para um API. Para criar seu próprio módulo basta criar um arquivo com extensão .py com as funções e classes, e em outro arquivo importar o módulo.
+
 ## Importando módulos
+
+Para importar um módulo utiliza-se a seguinte sintaxe:
+
+```Python
+import nome_modulo
+
+nome_modulo.class1()
+nome_modulo.class2()
+nome_modulo.func1(1, 2)
+```
+Também é possível importar apenas uma classe ou função do modulo
+
+```Python
+from nome_modulo  import class1, func1
+
+class1()
+func1(1, 2)
+```
+Caso tenha algum problema com funções com o mesmo nome ou classe pode ser utilizado o comando "as"
+
+
+```Python
+from nome_modulo import func1 as func2
+import numpy as np
+import pandas as pd
+
+```
+
+
 ## pip
+
+
+O pip é uma ferramenta de gerenciamento de bibliotecas e APIs do python, com ele é facil adicionar uma nova biblioteca, na linha de comandos ele pode ser usado para instalar a API numpy que possui classes e funções para manipulação de matrizes e vetores.
+
+
+```shell
+pip install numpy
+```
