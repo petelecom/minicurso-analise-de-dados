@@ -6,7 +6,7 @@ Este minicurso é desenvolvido pelo grupo PET Telecom
 - [Olavo](https://github.com/olavocinacio)
 
 ### Tópicos
-- [ ] [Introdução ao Python](intropy.md)
+- [x] [Introdução ao Python](intropy.md)
 - [ ] [Introdução a manipulação de matrizes - pandas](pandas.md)
 - [ ] [Plotando gráficos - matplotlib](matplotib.md)
 - [ ] [Introdução ao calcúlo númerico(teórica e aplicada) - numpy](calculonumerico.md)
