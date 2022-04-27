@@ -1,5 +1,12 @@
 
 
+- [A biblioteca pandas](#a-biblioteca-pandas)
+- [Primeiro Script](#primeiro-scrip-usando-pandas)
+- [Pandas Series](#pandas-series)
+- [Pandas DataFrames](#pandas-dataframes)
+- [Lendo Arquivos CSV](#lendo-arquivos-csv)
+
+----
 
 ### A biblioteca pandas
 
@@ -22,6 +29,7 @@ Para verificar informações da biblioteca utiliza-se a linha de comandos:
 pip show pandas
 ```
 
+----
 
 ### Primeiro scrip usando pandas
 
@@ -59,6 +67,8 @@ meusDados = {
 mvar = pd.DataFrame(meusDados)
 print(mvar)
 ```
+
+----
 
 ### Pandas Series
 
@@ -138,6 +148,8 @@ Camaro    2014
 dtype: int64
 ```
 
+----
+
 ### Pandas DataFrames
 
 Os conjuntos de dados geralmente são tabelas multidimensionais, chamados de "DataFrames". 
@@ -204,3 +216,9 @@ dia1      420       50
 dia2      380       40
 dia3      390       45
 ```
+
+
+----
+
+
+
