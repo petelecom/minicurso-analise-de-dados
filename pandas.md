@@ -230,7 +230,7 @@ df = pd.read_csv('dados.csv')
 print(df)
 ```
 
-Arquivos CSV (comma separated files - arquivos separados por virgula) são comumente usados para armazenar grandes conjuntos de dados, utilizam o modo texto para armazenamento facilitando a leitura e escrita dos mesmos. Para os exemplos será utilizado o arquivo "dados.csv" que pode ser obtido <a href="https://downgit.github.io/#/home?url=https://github.com/petelecom/minicurso-analise-de-dados/blob/main/dados.csv"> aqui</a>. 
+Arquivos CSV (comma separated files - arquivos separados por virgula) são comumente usados para armazenar grandes conjuntos de dados, utilizam o modo texto para armazenamento facilitando a leitura e escrita dos mesmos. Para os exemplos será utilizado o arquivo "dados.csv" que pode ser obtido <a href="https://raw.githubusercontent.com/petelecom/minicurso-analise-de-dados/main/dados.csv"> aqui</a>. 
 
 Para mostrar a tabela inteira pode-se utilizar o metodo "to_string":
 
@@ -244,7 +244,7 @@ print(df.to_string())
 
 ### Lendo Arquivos JSON
 
-Pandas também consegue importar dados de um arquivo json, o arquivo utilizado será "dados.json" que pode ser obtido <a href=""> aqui</a>.
+Pandas também consegue importar dados de um arquivo json, o arquivo utilizado será "dados.json" que pode ser obtido <a href="https://raw.githubusercontent.com/petelecom/minicurso-analise-de-dados/main/dados.json"> aqui</a>.
 
 O script abaixo importa os dados de um arquivo json:
 ```
