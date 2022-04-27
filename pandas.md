@@ -5,7 +5,7 @@
 - [Pandas Series](#pandas-series)
 - [Pandas DataFrames](#pandas-dataframes)
 - [Lendo Arquivos CSV](#lendo-arquivos-csv)
-
+- [Lendo Arquivos JSON](#lendo-arquivos-json)
 ----
 
 ### A biblioteca pandas
