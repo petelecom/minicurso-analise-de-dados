@@ -6,6 +6,8 @@
 - [Pandas DataFrames](#pandas-dataframes)
 - [Lendo Arquivos CSV](#lendo-arquivos-csv)
 - [Lendo Arquivos JSON](#lendo-arquivos-json)
+- [Referências](#referencias)
+
 ----
 
 ### A biblioteca pandas
@@ -253,3 +255,7 @@ df = pd.read_json('dados.json')
 print(df.to_string())
 ```
 
+
+### Referencias
+
+- [W3Schools](https://www.w3schools.com/python/pandas/pandas_cleaning.asp)
