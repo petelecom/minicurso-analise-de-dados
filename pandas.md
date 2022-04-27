@@ -230,5 +230,5 @@ df = pd.read_csv('dados.csv')
 print(df)
 ```
 
-Arquivos CSV (comma separated files - arquivos separados por virgula) são comumente usados para armazenar grandes conjuntos de dados, utilizam o modo texto para armazenamento facilitando a leitura e escrita dos mesmos. Para os exemplos será utilizado o arquivo "dados.csv" que pode ser obtido <a href=""> aqui</a>.
+Arquivos CSV (comma separated files - arquivos separados por virgula) são comumente usados para armazenar grandes conjuntos de dados, utilizam o modo texto para armazenamento facilitando a leitura e escrita dos mesmos. Para os exemplos será utilizado o arquivo "dados.csv" que pode ser obtido <a href="https://downgit.github.io/#/home?url=https://github.com/petelecom/minicurso-analise-de-dados/blob/main/dados.csv"> aqui</a>.
 
