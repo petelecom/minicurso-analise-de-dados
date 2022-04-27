@@ -239,3 +239,17 @@ import pandas as pd
 df = pd.read_csv('dados.csv')
 print(df.to_string())
 ```
+
+----
+
+### Lendo Arquivos JSON
+
+Pandas também consegue importar dados de um arquivo json, o arquivo utilizado será "dados.json" que pode ser obtido <a href=""> aqui</a>.
+
+O script abaixo importa os dados de um arquivo json:
+```
+import pandas as pd 
+df = pd.read_json('dados.json')
+print(df.to_string())
+```
+
