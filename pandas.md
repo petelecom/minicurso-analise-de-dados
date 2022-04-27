@@ -220,5 +220,15 @@ dia3      390       45
 
 ----
 
+### Lendo Arquivos CSV
 
+Se você tiver um conjunto de dados armazenado em um arquivo csv, o pandas consegue ler e coloca-los em um dataframe.
+
+```Python
+import pandas as pd
+df = pd.read_csv('dados.csv')
+print(df)
+```
+
+Arquivos CSV (comma separated files - arquivos separados por virgula) são comumente usados para armazenar grandes conjuntos de dados, utilizam o modo texto para armazenamento facilitando a leitura e escrita dos mesmos. Para os exemplos será utilizado o arquivo "dados.csv" que pode ser obtido <a href=""> aqui</a>.
 
