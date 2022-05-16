@@ -7,6 +7,7 @@ Este minicurso é desenvolvido pelo grupo PET Telecom
 
 ### Tópicos
 - [x] [Introdução ao Python](intropy.md)
+- [ ] [Colab/ jupter notebook]()
 - [x] [Introdução a manipulação de datasets - pandas](pandas.md)
 - [ ] [Plotando gráficos - matplotlib](matplotib.md)
 - [ ] [Introdução ao calcúlo númerico(teórica e aplicada) - numpy](calculonumerico.md)
