@@ -31,13 +31,13 @@ Uma vez importado o pyplot como "plt", é possível criar um gráfico de forma s
 In[]:
     # Criando um gráfico
     plt.plot(
-        [1, 3, 5], 
-        [2, 5, 7]
+        [1, 2, 3], 
+        [1, 2, 3]
     )
     plt.show()
 ```
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="img/plot.png"></p>
+<p align ="center"><img align=center src="plot.png"></p>
 
