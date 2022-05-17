@@ -39,7 +39,7 @@ In[]:
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="plot.png"></p>
+<p align ="center"><img align=center src="img/plot.png"></p>
 
 Assim, criamos um gráfico simples utilizando a biblioteca matplotlib.
 
@@ -76,7 +76,7 @@ In[]:
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="plot_aprimorado.png"></p>
+<p align ="center"><img align=center src="img/plot_aprimorado.png"></p>
 
 ### Diferentes Tipos de Gráficos
 #### Gráfico de Barras
