@@ -76,5 +76,5 @@ In[]:
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="splot_aprimorado.png"></p>
+<p align ="center"><img align=center src="plot_aprimorado.png"></p>
 
