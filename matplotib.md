@@ -104,7 +104,7 @@ In[]:
     plt.ylabel("Copas")
     plt.title("6 maiores vencedores da Copa do Mundo")
 
-    plt.yticks(x_pos, x)
+    plt.xticks(x_pos, x)
 
     plt.show()
 ```
