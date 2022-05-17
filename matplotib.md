@@ -78,3 +78,70 @@ Out[]:
 ```
 <p align ="center"><img align=center src="plot_aprimorado.png"></p>
 
+### Diferentes Tipos de Gráficos
+#### Gráfico de Barras
+* Os gráficos de barras são usados para exibir valores associados aos dados categóricos;
+* A função __plt.bar()__, recebe uma lista de posições e valores;
+* Os labels para *x* são fornecidos pela função __plt.xticks()__.
+
+No exemplo a seguir será mostrado um gráfico com os 6 maiores capeões da Copa do mundo:
+
+```python
+In[]:
+
+    import matplotlib.pyplot as plt
+
+
+    plt.style.use('ggplot')
+
+    x = ['Brasil', 'Alemanha', 'Italia', 'Argentina', 'Uruguai', 'França']
+    quant = [5, 4, 4, 2, 2, 2]
+
+    x_pos = [i for i, _ in enumerate(x)]
+
+    plt.bar(x_pos, quant, color='green')
+    plt.xlabel("Selecao")
+    plt.ylabel("Copas")
+    plt.title("6 maiores vencedores da Copa do Mundo")
+
+    plt.yticks(x_pos, x)
+
+    plt.show()
+```
+
+```python
+Out[]:
+```
+<p align ="center"><img align=center src="barchart.png"></p>
+
+Também, podemos gerar o gráfico na horizontal, para isso basta utilizar a função _plt.barh()__:
+
+
+```python
+In[]:
+
+    import matplotlib.pyplot as plt
+
+
+    plt.style.use('ggplot')
+
+    x = ['Brasil', 'Alemanha', 'Italia', 'Argentina', 'Uruguai', 'França']
+    quant = [5, 4, 4, 2, 2, 2]
+
+    x_pos = [i for i, _ in enumerate(x)]
+
+    plt.barh(x_pos, quant, color='green')
+    plt.xlabel("Seleção")
+    plt.ylabel("Copas")
+    plt.title("6 maiores vencedores da Copa do Mundo")
+
+    plt.yticks(x_pos, x)
+
+    plt.show()
+```
+
+```python
+Out[]:
+```
+<p align ="center"><img align=center src="barcharthorizontal.png"></p>
+#### Gráfico de Pizza
