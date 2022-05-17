@@ -1,5 +1,5 @@
 - [A biblioteca matplotlib](#a-biblioteca-matplotlib)
-- [Grafico simples](#grafico-simples)
+- [Gráfico simples](#gráfico-simples)
 - [Estilizando graficos](#estilizando-graficos)
 - [Diferentes tipos de Gráficos]()
 - [Salvar graficos]()
