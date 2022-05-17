@@ -180,7 +180,7 @@ Out[]:
 ### Salvar gráficos
 - Com o matplotlib podemos salvar um grafico como imagem para utilizar em relatórios, por exemplo;
 - É muito simples realizar tal operação. Essa opção aparece na propria interface da biblioteca
-- A barra inferior da interface é onde encontrará esse icone: <img align=center src="save.png">. Clique nele e a tela para salvar o arquivo aparecerá.
+- A barra inferior da interface é onde encontrará esse icone: <img align=center src="img/save.png">. Clique nele e a tela para salvar o arquivo aparecerá.
 
 #### Via Código
 - Utilizando a função `plt.savefig('nome_do_gráfico.formato')`, é possivel salvar o gráfico em diferentes formatos. Os formatos incluem: .png, .svg e .jpg.
