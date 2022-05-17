@@ -112,7 +112,7 @@ In[]:
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="barchart.png"></p>
+<p align ="center"><img align=center src="img/barchart.png"></p>
 
 Também, podemos gerar o gráfico na horizontal, para isso basta utilizar a função _plt.barh()__:
 
@@ -143,7 +143,7 @@ In[]:
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="barcharthorizontal.png"></p>
+<p align ="center"><img align=center src="img/barcharthorizontal.png"></p>
 
 #### Gráfico de Pizza
 No gráfico de pizza, a área do gráfico inteiro representa 100% ou o conjunto dos dados, as partes de um gráfico de pizza são chamadas de fatias, e as fatias presentes no grafico representam a porcentagem de partes dos dados.
@@ -175,7 +175,7 @@ In[]:
 ```python
 Out[]:
 ```
-<p align ="center"><img align=center src="piechart.png"></p>
+<p align ="center"><img align=center src="img/piechart.png"></p>
 
 ### Salvar gráficos
 - Com o matplotlib podemos salvar um grafico como imagem para utilizar em relatórios, por exemplo;
