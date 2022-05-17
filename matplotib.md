@@ -32,7 +32,7 @@ In[]:
     # Criando um gráfico
     plt.plot(
         [1, 2, 3], 
-        [1, 2, 3]
+        [1, 3, 6]
     )
     plt.show()
 ```
