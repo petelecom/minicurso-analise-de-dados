@@ -2,7 +2,7 @@
 - [Gráfico simples](#gráfico-simples)
 - [Estilizando gráficos](#estilizando-gráficos)
 - [Diferentes tipos de Gráficos](#Diferentes-Tipos-de-Gráficos)
-- [Salvar graficos]()
+- [Salvar gráficos](Salvar-gráficos)
 - [Referências](#referencias)
 
 ----
@@ -197,3 +197,7 @@ plt.show()
 ```
 
 - Se desejar saber outros formatos disponíveis, a função `plt.gcf().canvas.get_supported_filetypes()` retorna a lista dos formatos suportados.
+
+### Referências
+
+Matplotlib 3.5.2 documentation. Disponível em : [Matplotlib](https://matplotlib.org/stable)
